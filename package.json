@@ -1,0 +1,21 @@
+{
+  "name": "callbag-to-async-iterable",
+  "version": "1.0.0",
+  "description": "Convert any pullable callbag source to an AsyncIterable",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staltz/callbag-to-async-iterable.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "keywords": [
+    "callbag"
+  ],
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
