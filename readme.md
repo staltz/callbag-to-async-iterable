@@ -2,15 +2,13 @@
 
 Convert any pullable callbag source to an AsyncIterable (`async function*`).
 
-**⚠️ EXPERIMENTAL:** uses [async iterators](https://github.com/tc39/proposal-async-iteration) from ES2018, which are known to only work in Firefox 57+ and Edge 16.
+**NOTE:** uses [async iterators](https://github.com/tc39/proposal-async-iteration) from ES2018, which are known to only work in Node.js v10, Firefox 57+, and Edge 16.
 
 Copy file `ff-example.js` and paste it in Firefox's console to see a successful run.
 
 `npm install callbag-to-async-iterable`
 
 ## Example
-
-### ⛔️ Some day this example will work
 
 ```js
 const {pipe, filter, take} = require('callbag-basics');
